@@ -2,14 +2,15 @@
 layout: ../../../layouts/project.astro
 title: SharedDaily
 client: Self
-publishDate: 2020-03-04 00:00:00
+publishDate: 2021-03-04 00:00:00
 img: ../../../../public/assets/shareddaily.png
 description: |
   Built a website for users to share to their daily-drivers along with browsing other cars
 tags:
   - React
-  - Redux
-  - Docker
+  - Redis-OM
+  - Redis
+  - AWS
 ---
 
 Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.
