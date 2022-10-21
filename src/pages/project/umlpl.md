@@ -3,7 +3,7 @@ layout: ../../layouts/project.astro
 title: UMass Lowell Powerlifting Website
 client: Self
 publishDate: 2022-05-02 00:00:00
-img: ../../../public/assets/umlpl.png
+img: /assets/umlpl.png
 github: https://github.com/bryanmontalvan/umlpl-website
 deployment: https://www.umlpowerlifting.com/
 description: |

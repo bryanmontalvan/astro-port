@@ -3,7 +3,7 @@ layout: ../../../layouts/project.astro
 title: Should I Go Out? (SIGO)
 client: Self
 publishDate: 2021-03-04 00:00:00
-img: ../../../../public/assets/sigo.png
+img: /assets/sigo.png
 github: https://github.com/bryanmontalvan/SIGO
 description: |
   SIGO for short, a CLI tool which helps user decide if they want to go outside. 

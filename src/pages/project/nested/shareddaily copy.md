@@ -3,7 +3,7 @@ layout: ../../../layouts/project.astro
 title: SharedDaily
 client: Self
 publishDate: 2021-03-04 00:00:00
-img: ../../../../public/assets/shareddaily.png
+img: /assets/shareddaily.png
 github: https://github.com/bryanmontalvan/shareddaily
 deployment: https://shareddaily.herokuapp.com/
 description: |
