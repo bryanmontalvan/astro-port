@@ -4,6 +4,8 @@ title: SharedDaily
 client: Self
 publishDate: 2021-03-04 00:00:00
 img: ../../../../public/assets/shareddaily.png
+github: https://github.com/bryanmontalvan/shareddaily
+deployment: https://shareddaily.herokuapp.com/
 description: |
   Built a website for users to share to their daily-drivers along with browsing other cars
 tags:
@@ -12,13 +14,16 @@ tags:
   - Redis
   - AWS
 ---
+## Description
+A website with the purpose for users to share the cars they drive. 
 
-Rubber cheese mascarpone cut the cheese. Jarlsberg parmesan cheesy grin cream cheese port-salut stinking bishop ricotta brie. Roquefort when the cheese comes out everybody's happy goat cheese triangles stilton cheese and biscuits goat babybel. Bocconcini roquefort queso danish fontina pecorino.
+The website is composed of using a Redis database hosted on an AWS instance. Using the [node-redis-objectmapper](https://github.com/redis/redis-om-node) which allows me to use a schema-like interface to interact with the data structures on the data-base. Essentially allowing me to interact with the data-base using an object dubbed schema.
 
-Smelly cheese stinking bishop roquefort. Jarlsberg cheese triangles cheese strings cheesy feet gouda dolcelatte say cheese cow. Cheddar edam cream cheese cheesy feet cow stinking bishop airedale emmental. Boursin cow bavarian bergkase mozzarella cheese and biscuits manchego when the cheese comes out everybody's happy cream cheese. Cheese on toast st. agur blue cheese croque monsieur halloumi.
+The website itself has two sections:
+1. Submission Form
+2. Display field
 
-Fromage frais jarlsberg st. agur blue cheese. Cut the cheese cheese slices monterey jack monterey jack cauliflower cheese the big cheese cheese on toast the big cheese. Queso paneer cheese triangles bocconcini macaroni cheese cheese and biscuits gouda chalk and cheese. Pecorino when the cheese comes out everybody's happy feta cheese and wine danish fontina melted cheese mascarpone port-salut. When the cheese comes out everybody's happy pecorino cottage cheese.
+On submit the submission form will update the database with a new car-object. This car object contains meta-data of the car. The display field will fetch the car-objects from Redis. There is also a search component which uses Redis's elastic-search for users to search by car make, model, and usernames.
 
-Caerphilly parmesan manchego. Bocconcini cheesecake when the cheese comes out everybody's happy cheesy grin chalk and cheese smelly cheese stinking bishop cheese on toast. Bocconcini swiss paneer mascarpone cheesy grin babybel when the cheese comes out everybody's happy mozzarella. Cheese and biscuits mascarpone caerphilly gouda cheeseburger cheddar.
 
-Cheese and biscuits cheesy grin roquefort. Ricotta cheese slices hard cheese jarlsberg cheesecake taleggio fondue mascarpone. Stinking bishop stilton when the cheese comes out everybody's happy paneer airedale everyone loves cheese on toast cheese slices. Ricotta cut the cheese cheese triangles babybel cream cheese ricotta.
+
